@@ -1,6 +1,6 @@
 GÜN 1 
 04.08.25 staj eğitim aşaması 
-Firebase Storage ->>F otoğraf yükleme ve listeleme tamamlandı: Firebase Storage üzerinden resim yükleme ve geçmiş fotoğrafları  gösterme özelliği eklendi
+Firebase Storage ->>Fotoğraf yükleme ve listeleme tamamlandı: Firebase Storage üzerinden resim yükleme ve geçmiş fotoğrafları  gösterme özelliği eklendi
 FireBaseAuth ile kullanıcı tanıma 
 SDWebİmage ile yüklenen veriler urlsinden çekildi
 
