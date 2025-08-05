@@ -4,3 +4,12 @@ Firebase Storage ->>Fotoğraf yükleme ve listeleme tamamlandı: Firebase Storag
 FireBaseAuth ile kullanıcı tanıma 
 SDWebİmage ile yüklenen veriler urlsinden çekildi
 
+Gün 2 
+05.08.25 staj Eğitim aşaması 
+FireBase firestore kullanıcnın verileri saklandı (konum,mail,yorum ..)
+firebase auth kullanıcı kayıt
+mapkit ile kullanıcı konumu aldık
+
+
+
+
