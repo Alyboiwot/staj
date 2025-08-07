@@ -22,20 +22,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ovO-zE-vsY">
-                                <rect key="frame" x="36" y="503" width="117" height="55"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="117" id="Ldk-bE-YJd"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Signİn" cornerStyle="capsule">
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" systemColor="systemGray2Color"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="signinclicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s9a-0E-pfC"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="mail" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LRz-64-QNn">
                                 <rect key="frame" x="36" y="360" width="309" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -47,8 +33,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bXi-3A-Krn">
-                                <rect key="frame" x="228" y="503" width="117" height="55"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bXi-3A-Krn">
+                                <rect key="frame" x="228" y="508" width="117" height="45"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="SignUP" cornerStyle="capsule">
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -58,25 +44,39 @@
                                     <action selector="signUpClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zta-RD-1T3"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ovO-zE-vsY">
+                                <rect key="frame" x="36" y="513" width="117" height="34.333333333333371"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="117" id="xMc-s0-4yb"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Signİn" cornerStyle="capsule">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" systemColor="systemGray2Color"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="signinclicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s9a-0E-pfC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
                         <constraints>
-                            <constraint firstItem="TPq-qJ-wvy" firstAttribute="leading" secondItem="ovO-zE-vsY" secondAttribute="leading" id="2F6-88-Cx8"/>
-                            <constraint firstItem="92a-6P-nk8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="8CD-F5-PBk"/>
-                            <constraint firstItem="92a-6P-nk8" firstAttribute="leading" secondItem="LRz-64-QNn" secondAttribute="leading" id="D0F-s7-b4w"/>
-                            <constraint firstItem="ovO-zE-vsY" firstAttribute="baseline" secondItem="bXi-3A-Krn" secondAttribute="baseline" id="I0g-Xt-ixj"/>
-                            <constraint firstItem="TPq-qJ-wvy" firstAttribute="top" secondItem="LRz-64-QNn" secondAttribute="bottom" constant="36" id="L6p-fP-mZb"/>
-                            <constraint firstItem="LRz-64-QNn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="242" id="OcJ-Xy-HxL"/>
-                            <constraint firstItem="TPq-qJ-wvy" firstAttribute="trailing" secondItem="LRz-64-QNn" secondAttribute="trailing" id="XmN-jV-OBD"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LRz-64-QNn" secondAttribute="trailing" constant="48" id="g6d-5O-Vdh"/>
-                            <constraint firstItem="92a-6P-nk8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="145" id="hgh-tP-LH4"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="92a-6P-nk8" secondAttribute="trailing" constant="11" id="poi-GE-Keb"/>
-                            <constraint firstItem="TPq-qJ-wvy" firstAttribute="trailing" secondItem="bXi-3A-Krn" secondAttribute="trailing" id="qcL-gM-QtW"/>
-                            <constraint firstItem="TPq-qJ-wvy" firstAttribute="leading" secondItem="LRz-64-QNn" secondAttribute="leading" id="wEj-a0-4nK"/>
-                            <constraint firstItem="bXi-3A-Krn" firstAttribute="leading" secondItem="ovO-zE-vsY" secondAttribute="trailing" constant="75" id="y1i-eA-oZb"/>
-                            <constraint firstItem="bXi-3A-Krn" firstAttribute="baseline" secondItem="ovO-zE-vsY" secondAttribute="firstBaseline" id="z5G-x8-iUk"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ovO-zE-vsY" secondAttribute="bottom" constant="226" id="zgw-Eb-gUf"/>
+                            <constraint firstItem="LRz-64-QNn" firstAttribute="trailing" secondItem="TPq-qJ-wvy" secondAttribute="trailing" id="01w-3A-Fpg"/>
+                            <constraint firstItem="LRz-64-QNn" firstAttribute="top" secondItem="92a-6P-nk8" secondAttribute="bottom" constant="54" id="2Cx-zK-D20"/>
+                            <constraint firstItem="92a-6P-nk8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="3gF-Jo-1am"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LRz-64-QNn" secondAttribute="trailing" constant="48" id="3sW-dn-yO4"/>
+                            <constraint firstItem="TPq-qJ-wvy" firstAttribute="trailing" secondItem="bXi-3A-Krn" secondAttribute="trailing" id="4fj-fq-Cni"/>
+                            <constraint firstItem="ovO-zE-vsY" firstAttribute="top" secondItem="TPq-qJ-wvy" secondAttribute="bottom" constant="49" id="5AK-oq-JT4"/>
+                            <constraint firstItem="92a-6P-nk8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="145" id="73c-2n-yT9"/>
+                            <constraint firstItem="92a-6P-nk8" firstAttribute="leading" secondItem="LRz-64-QNn" secondAttribute="leading" id="Ju5-bG-H5V"/>
+                            <constraint firstItem="bXi-3A-Krn" firstAttribute="top" secondItem="TPq-qJ-wvy" secondAttribute="bottom" constant="44" id="Nyb-N5-QCN"/>
+                            <constraint firstItem="ovO-zE-vsY" firstAttribute="centerY" secondItem="bXi-3A-Krn" secondAttribute="centerY" id="Z2Y-Fb-gYu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="92a-6P-nk8" secondAttribute="trailing" constant="11" id="bhU-Jf-2U4"/>
+                            <constraint firstItem="LRz-64-QNn" firstAttribute="leading" secondItem="TPq-qJ-wvy" secondAttribute="leading" id="m0s-zj-zWf"/>
+                            <constraint firstItem="TPq-qJ-wvy" firstAttribute="top" secondItem="LRz-64-QNn" secondAttribute="bottom" constant="36" id="mse-cQ-U0X"/>
+                            <constraint firstItem="bXi-3A-Krn" firstAttribute="leading" secondItem="ovO-zE-vsY" secondAttribute="trailing" constant="75" id="uJx-1s-Ur2"/>
+                            <constraint firstItem="TPq-qJ-wvy" firstAttribute="leading" secondItem="ovO-zE-vsY" secondAttribute="leading" id="zkF-Om-24o"/>
                         </constraints>
                     </view>
                     <connections>

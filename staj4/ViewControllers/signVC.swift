@@ -14,12 +14,14 @@ class signVC: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        showTouchID()
+        showTouchID()//ekran yüklenmeden önce alert hazırla
     }
     override func viewDidLoad() {
         super.viewDidLoad()
       
     }
+    
+    //firebase
     @IBAction func signinclicked(_ sender: Any) {
        
         if mailbox.text != "" && passbox.text != "" {
@@ -57,15 +59,16 @@ class signVC: UIViewController {
         
         
     }
+    //genel alert
     func makeAlert(title:String, message : String)  {
         let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
         let button = UIAlertAction(title: "OK", style: UIAlertAction.Style.default)
         alert.addAction(button)
         present(alert, animated: true)
     }
-    
+    //view yüklenince alert
     func showTouchID() {
-        let alert = UIAlertController(title: "Giriş Seçenekleri", message: "Touch ID ile giriş yapmak ister misiniz?", preferredStyle: .alert)
+        let alert = UIAlertController(title: "Giriş Seçenekleri", message: "Face ID ile giriş yapmak ister misiniz?", preferredStyle: .alert)
         
      let touchyap = UIAlertAction(title: "Evet", style: .default) { (_) in
          self.touchID()
@@ -80,7 +83,7 @@ class signVC: UIViewController {
     
     
     
-    
+   //FaceID İşleri
 func touchID() {
     let context = LAContext()
     var error: NSError?
