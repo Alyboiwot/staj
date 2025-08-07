@@ -14,5 +14,11 @@ mapkit ile kullanıcı konumu aldık
 Gün 3 06.08.25 staj eğitim 
 API dan kullanıcı verileri çekildi ve tableview da gösterildi
 
+Gün 4 07.08.25 staj eğitim 
+https://www.alphavantage.co apı dan veri çekip table view da gösterdim 
+LocalAuthentication kullanılılarak FaceID doğrulama 
+FireBaseAuth ile kullanıcı tanıma
+view will appear viewdid load farkı 
+
 
 
