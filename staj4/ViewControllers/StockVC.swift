@@ -27,7 +27,7 @@ class StockVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
         table.delegate = self
         table.dataSource = self
         
-        // Örnek veri
+   
             stocks = [
                 StockModel(symbol: "AAPL", dividend: 3.5, isFavorite: true),
                 StockModel(symbol: "GOOGL", dividend: 2.1, isFavorite: false),
