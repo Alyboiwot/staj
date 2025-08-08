@@ -12,5 +12,6 @@
 ![Gün 4 - iPhone Ekran Görüntüsü](https://github.com/user-attachments/assets/91394605-f6fe-44c3-a169-e3a1c804de90)
 
 ![Gün 4 - Masaüstü Görüntüsü 1](https://github.com/user-attachments/assets/2731d7e2-463d-4386-9be8-64eed166cc55)
+<img width="433" height="800" alt="Screenshot 2025-08-08 at 13 41 50" src="https://github.com/user-attachments/assets/fe71aad3-f753-4309-91b2-99f1868a6073" />
 
 
