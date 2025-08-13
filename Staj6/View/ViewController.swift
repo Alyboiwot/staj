@@ -6,30 +6,39 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
    
     
     @IBOutlet weak var table: UITableView!
     var crytoList = [Crypto]()
+    let disposeBag = DisposeBag()
+   let cryptoModel = CryptoModel()
     override func viewDidLoad() {
         super.viewDidLoad()
         table.delegate = self
         table.dataSource = self
-       let  url = "https://raw.githubusercontent.com/atilsamancioglu/K21-JSONDataSet/master/crypto.json"
-        let URL = URL(string: url)!
         
-        WebServices.downloadCurrency(url:  URL) { (result) in
-            switch result {
-            case .success(let cryptos):print(cryptos)
-                self.crytoList = cryptos
-                DispatchQueue.main.async {
-                    self.table.reloadData()
-                }
-            case .failure(let error): print(error)
-            }
-        }
+        setupBinding()
+        cryptoModel.fetchData()
     }
+    
+    
+    func setupBinding(){
+        cryptoModel.erorr.observe(on:MainScheduler.asyncInstance).subscribe{
+            errorString in
+            print(errorString)
+        }.disposed(by:disposeBag)
+        cryptoModel.cryptoList.observe(on:MainScheduler.asyncInstance).subscribe{
+            crypto in
+            self.crytoList = crypto
+            self.table.reloadData()
+        }.disposed(by: disposeBag)
+    }
+    
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return crytoList.count
     }
