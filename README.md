@@ -15,4 +15,16 @@
 <img width="433" height="800" alt="Screenshot 2025-08-08 at 13 41 50" src="https://github.com/user-attachments/assets/fe71aad3-f753-4309-91b2-99f1868a6073" />
 
 ## Gün 6
+<img width="234" height="541" alt="Screenshot 2025-08-14 at 16 15 13" src="https://github.com/user-attachments/assets/00949fc5-8397-4437-beaf-c22c4ee84c84" />
+
+
+
+## Gün 7-8 
+<img width="270" height="484" alt="Screenshot 2025-08-14 at 16 14 13" src="https://github.com/user-attachments/assets/246cd29c-f3b7-4c09-962b-572c5ea3280c" />
+
+<img width="384" height="710" alt="Screenshot 2025-08-14 at 16 13 00" src="https://github.com/user-attachments/assets/f4adc021-e3d5-4904-b0bc-b01c70fbb7fd" />
+
+## Gün 9-10
    <img width="328" height="681" alt="Screenshot 2025-08-14 at 15 47 58" src="https://github.com/user-attachments/assets/5289d1fe-67b9-4719-ba19-07f560112ab6" />
+   <img width="366" height="749" alt="Screenshot 2025-08-14 at 15 48 07" src="https://github.com/user-attachments/assets/cbcc2fe0-a23a-4d24-a4db-fbf399a78724" />
+
