@@ -6,6 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		01C3F0C92E549F8E00446307 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 01C3F0C82E549F8E00446307 /* FirebaseAnalytics */; };
+		01C3F0CB2E549F8E00446307 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 01C3F0CA2E549F8E00446307 /* FirebaseAuth */; };
+		01C3F0CD2E549F8E00446307 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 01C3F0CC2E549F8E00446307 /* FirebaseCore */; };
+		01C3F0CF2E549F8E00446307 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 01C3F0CE2E549F8E00446307 /* FirebaseDatabase */; };
+		01C3F0D12E549F8E00446307 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 01C3F0D02E549F8E00446307 /* FirebaseFirestore */; };
+		01C3F0D32E549F8E00446307 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 01C3F0D22E549F8E00446307 /* FirebaseFunctions */; };
+		01C3F0D52E549F8E00446307 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 01C3F0D42E549F8E00446307 /* FirebaseStorage */; };
+		01C3F0FA2E54BE7700446307 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 01C3F0F92E54BE7700446307 /* RxCocoa */; };
+		01C3F0FC2E54BE7700446307 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 01C3F0FB2E54BE7700446307 /* RxSwift */; };
+		01FDFEE32E57599C003F91D0 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 01FDFEE22E57599C003F91D0 /* SDWebImage */; };
+		01FDFEE52E57599C003F91D0 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 01FDFEE42E57599C003F91D0 /* SDWebImageMapKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		01C3F0AD2E549E0600446307 /* EticaretApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EticaretApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +50,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01C3F0FC2E54BE7700446307 /* RxSwift in Frameworks */,
+				01C3F0C92E549F8E00446307 /* FirebaseAnalytics in Frameworks */,
+				01C3F0CD2E549F8E00446307 /* FirebaseCore in Frameworks */,
+				01C3F0CF2E549F8E00446307 /* FirebaseDatabase in Frameworks */,
+				01FDFEE32E57599C003F91D0 /* SDWebImage in Frameworks */,
+				01C3F0D32E549F8E00446307 /* FirebaseFunctions in Frameworks */,
+				01C3F0D52E549F8E00446307 /* FirebaseStorage in Frameworks */,
+				01FDFEE52E57599C003F91D0 /* SDWebImageMapKit in Frameworks */,
+				01C3F0D12E549F8E00446307 /* FirebaseFirestore in Frameworks */,
+				01C3F0FA2E54BE7700446307 /* RxCocoa in Frameworks */,
+				01C3F0CB2E549F8E00446307 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +103,17 @@
 			);
 			name = EticaretApp;
 			packageProductDependencies = (
+				01C3F0C82E549F8E00446307 /* FirebaseAnalytics */,
+				01C3F0CA2E549F8E00446307 /* FirebaseAuth */,
+				01C3F0CC2E549F8E00446307 /* FirebaseCore */,
+				01C3F0CE2E549F8E00446307 /* FirebaseDatabase */,
+				01C3F0D02E549F8E00446307 /* FirebaseFirestore */,
+				01C3F0D22E549F8E00446307 /* FirebaseFunctions */,
+				01C3F0D42E549F8E00446307 /* FirebaseStorage */,
+				01C3F0F92E54BE7700446307 /* RxCocoa */,
+				01C3F0FB2E54BE7700446307 /* RxSwift */,
+				01FDFEE22E57599C003F91D0 /* SDWebImage */,
+				01FDFEE42E57599C003F91D0 /* SDWebImageMapKit */,
 			);
 			productName = EticaretApp;
 			productReference = 01C3F0AD2E549E0600446307 /* EticaretApp.app */;
@@ -107,6 +143,11 @@
 			);
 			mainGroup = 01C3F0A42E549E0600446307;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				01C3F0C72E549F8E00446307 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				01C3F0F82E54BE7700446307 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				01FDFEE12E57599B003F91D0 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 01C3F0AE2E549E0600446307 /* Products */;
 			projectDirPath = "";
@@ -337,6 +378,91 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		01C3F0C72E549F8E00446307 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.1.0;
+			};
+		};
+		01C3F0F82E54BE7700446307 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.9.0;
+			};
+		};
+		01FDFEE12E57599B003F91D0 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.21.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		01C3F0C82E549F8E00446307 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01C3F0C72E549F8E00446307 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		01C3F0CA2E549F8E00446307 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01C3F0C72E549F8E00446307 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		01C3F0CC2E549F8E00446307 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01C3F0C72E549F8E00446307 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		01C3F0CE2E549F8E00446307 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01C3F0C72E549F8E00446307 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		01C3F0D02E549F8E00446307 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01C3F0C72E549F8E00446307 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		01C3F0D22E549F8E00446307 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01C3F0C72E549F8E00446307 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		01C3F0D42E549F8E00446307 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01C3F0C72E549F8E00446307 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		01C3F0F92E54BE7700446307 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01C3F0F82E54BE7700446307 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		01C3F0FB2E54BE7700446307 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01C3F0F82E54BE7700446307 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		01FDFEE22E57599C003F91D0 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01FDFEE12E57599B003F91D0 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		01FDFEE42E57599C003F91D0 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01FDFEE12E57599B003F91D0 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 01C3F0A52E549E0600446307 /* Project object */;
 }

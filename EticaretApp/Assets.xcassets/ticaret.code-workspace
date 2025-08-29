@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Base.lproj"
+		},
+		{
+			"path": "../Model"
+		},
+		{
+			"path": "../View"
+		},
+		{
+			"path": "../ViewModel"
+		}
+	]
+}
